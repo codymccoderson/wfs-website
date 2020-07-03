@@ -17,8 +17,6 @@ const StyledUnorderedList = styled.ul`
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-    color: white;
-    text-decoration: none;
 `;
 
 function Nav() {
@@ -28,19 +26,19 @@ function Nav() {
               Logo
           </h3>
           <StyledUnorderedList>
-                <Link to='/'>
+                <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
                     <li>Home</li>
                 </Link>
-                <Link to='/services'>
+                <Link to='/services' style={{ textDecoration: 'none', color: 'white' }}>
                     <li>Services</li>
                 </Link>
-                <Link to='/intake'>
+                <Link to='/intake' style={{ textDecoration: 'none', color: 'white' }}>
                     <li>Intake Form</li>
                 </Link>
-                <Link to='/contact'>
+                <Link to='/contact' style={{ textDecoration: 'none', color: 'white' }}>
                     <li>Contact Us</li>
                 </Link>
-                <Link to='/payment'>
+                <Link to='/payment' style={{ textDecoration: 'none', color: 'white' }}>
                     <li>Payment</li>
                 </Link>
           </StyledUnorderedList>
