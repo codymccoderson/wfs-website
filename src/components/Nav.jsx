@@ -8,23 +8,21 @@ const StyledNavbar = styled.div`
     align-items: center;
     background: black;
     color: white;
-    min-height: 10vh;
+    min-height: 12.5vh;
 `;
 
 const StyledUnorderedList = styled.ul`
-    width: 40%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
+    font-size: 1.2rem;
 `;
 
 function Nav() {
     return (
       <StyledNavbar>
-          <h3>
-              Logo
-          </h3>
           <StyledUnorderedList>
                 <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
                     <li>Home</li>
