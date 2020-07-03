@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
+import Services from './components/Services';
+import IntakeForm from './components/IntakeForm';
+import ContactUs from './components/ContactUs';
+import Payment from './components/Payment';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <Route path="/services" component={Services} />
+      <Route path="/intake" component={IntakeForm} />
+      <Route path="/contact" component={ContactUs} />
+      <Route path="/payment" component={Payment} />
+
     </div>
+    </Router>
   );
 }
 
