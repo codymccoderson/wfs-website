@@ -7,6 +7,7 @@ import IntakeForm from './components/IntakeForm';
 import ContactUs from './components/ContactUs';
 import Payment from './components/Payment';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" component={ContactUs} />
         <Route path="/payment" component={Payment} />
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );

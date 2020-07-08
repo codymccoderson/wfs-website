@@ -13,15 +13,13 @@ const StyledContent = styled.div`
     top: 2.5rem;
 `
 const ImageWrapper = styled.div `
-
     position: relative; 
     bottom: 0.5rem;
 
-
-    .theLogoImg {
-        width: 45rem;
-        height: 5rem;
-    }
+        .theLogoImg {
+            width: 45rem;
+            height: 5rem;
+        }
 `
 
 const StyledHomeTitle = styled.h1`
