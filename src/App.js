@@ -41,11 +41,11 @@ function App() {
         <Route path='/services/:irs-tax-payment-plans' component={IRSTaxPaymentPlans} />
         <Route path='/services/:offer-in-compromise' component={OfferInCompromise} />
         <Route path='/services/:installment-agreement' component={InstallmentAgreement} />
-        <Route path='/services/:audit-representation' component={AuditRepresentation} />
+        <Route path='/services/:audit-rep' component={AuditRepresentation} />
         <Route path='/services/:penalty-abatement' component={PenaltyAbatement} />
-        <Route path='/services/:irs-audit-representation' component={IRSAuditRepresentation} />
+        <Route path='/services/:irs-audit-rep' component={IRSAuditRepresentation} />
         <Route path='/services/:transcript-analysis' component={TranscriptAnalysis} />
-        <Route path='/services/:full-representation' component={FullRepresentation} />
+        <Route path='/services/:full-rep' component={FullRepresentation} />
         <Route path='/services/:currently-not-collectible' component={CurrentlyNotCollectible} />
         <Route path='/intake' component={IntakeForm} />
         <Route path='/contact' component={ContactUs} />

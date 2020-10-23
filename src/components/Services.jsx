@@ -120,7 +120,7 @@ function Services() {
                 Installment Agreement
               </StyledListItem>
             </Link>
-            <Link to='/services/audit-representation' style={{ color: 'black' }}>
+            <Link to='/services/audit-rep' style={{ color: 'black' }}>
               <StyledListItem>
                 Audit Representation
               </StyledListItem>
@@ -132,7 +132,7 @@ function Services() {
                 Penalty Abatement
               </StyledListItem>
             </Link>
-            <Link to='/services/irs-audit-representation' style={{ color: 'black' }}>
+            <Link to='/services/irs-audit-rep' style={{ color: 'black' }}>
               <StyledListItem>
                 IRS Audit Representation
               </StyledListItem>
@@ -142,7 +142,7 @@ function Services() {
                 Transcript Analysis
               </StyledListItem>
             </Link>
-            <Link to='/services/full-representation' style={{ color: 'black' }}>
+            <Link to='/services/full-rep' style={{ color: 'black' }}>
               <StyledListItem>
                 Full Representation
               </StyledListItem>
