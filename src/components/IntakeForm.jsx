@@ -47,54 +47,54 @@ class IntakeForm extends React.Component {
       <div className="Intake">
         <form id="intake-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="name-group">
-            <label htmlFor="name">Name</label>
             <input 
               type="text" 
-              className="name-control" 
+              className="name-control"
+              placeholder="Name" 
               value={this.state.name}
               onChange={this.onNameChange.bind(this)}
             />
           </div>
           <div className="address-group">
-            <label htmlFor="address">Address</label>
             <input 
               type="text" 
-              className="address-control" 
+              className="address-control"
+              placeholder="Address" 
               value={this.state.address}
               onChange={this.onAddressChange.bind(this)}
             />
           </div>
           <div className="phone-group">
-            <label htmlFor="phone">Phone</label>
             <input 
               type="text" 
-              className="phone-control" 
+              className="phone-control"
+              placeholder="Phone Number" 
               value={this.state.phone}
               onChange={this.onPhoneChange.bind(this)}
             />
           </div>
           <div className="city-group">
-            <label htmlFor="city">City</label>
             <input 
               type="text" 
-              className="city-control" 
+              className="city-control"
+              placeholder="City" 
               value={this.state.city}
               onChange={this.onCityChange.bind(this)}
             />
           </div>
           <div className="states-group">
-            <label htmlFor="states">State</label>
             <input 
               type="text" 
-              className="states-control" 
+              className="states-control"
+              placeholder="State" 
               value={this.state.states}
               onChange={this.onStatesChange.bind(this)}
             />
           </div>
           <div className="tax-problem-group">
-            <label htmlFor="taxProblem">Tax Problem</label>
             <textarea 
-              className="taxProblemForm" 
+              className="taxProblemForm"
+              placeholder="What is the nature of your tax problem?" 
               rows="8"
               value={this.state.yourTaxProblem}
               onChange={this.onProblemChange.bind(this)}
