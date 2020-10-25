@@ -55,6 +55,17 @@ class IntakeForm extends React.Component {
               onChange={this.onNameChange.bind(this)}
             />
           </div>
+          <div className="email-group">
+            <input 
+              type="email" 
+              className="email-control"
+              id="email"
+              aria-describedby="emailHelp"
+              placeholder="Email" 
+              value={this.state.email}
+              onChange={this.onEmailChange.bind(this)}
+            />
+          </div>
           <div className="address-group">
             <input 
               type="text" 
@@ -109,6 +120,12 @@ class IntakeForm extends React.Component {
   onNameChange(event) {
     this.setState({
       name: event.target.value
+    })
+  }
+
+  onEmailChange(event) {
+    this.setState({
+      email: event.target.value
     })
   }
 
